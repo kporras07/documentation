@@ -6,7 +6,7 @@ categories: [develop, sftp]
 ---
 <div class="alert alert-danger" role="alert">
 <h3 class="info">Warning</h3>
-<p>Due to the nature of our platform architecture, the connection information will change from time to time due to server upgrades, endpoint migrations, etc. You will need to check this with the Dashboard periodically or when you are unable to connect.</p></div>
+<p markdown="1">Due to the nature of our platform architecture, the connection information will change from time to time due to server upgrades, endpoint migrations, etc. You will need to check this with the Dashboard periodically or when you are unable to connect.</p></div>
 
 If you have more than 500 MB of content to be transferred to your `/files` directory (`sites/default/files` for Drupal and `wp-content/uploads` for WordPress), you won't be able to use your Pantheon Dashboard to import. Instead, you'll need to use a SFTP client or rsync to transfer.
 
