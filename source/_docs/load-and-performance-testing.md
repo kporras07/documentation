@@ -1,8 +1,8 @@
 ---
 title: Load and Performance Testing
 description: Learn how to monitor internal execution performance of your Pantheon Drupal or WordPress site.
-tags: [performance, cache]
-categories: [platform, cache]
+tags: [status]
+categories: []
 ---
 We highly recommend load testing a site both prior and post launch to ensure your site is optimally configured.
 
@@ -15,7 +15,8 @@ You should:
 
 <div class="alert alert-info" role="alert">
 <h3 class="info">Note</h3>
-<p><strong>Load testing should only be performed on the Live environment</strong>. Dev has much lower default caching settings than other environments to facilitate iterative development. Test has the exact same configuration as Live, but Test can only have one appserver, while Live can have as many as your plan allows. If disruptive behavior occurs outside of the Live environment, the site may be temporarily disabled to prevent disruption to other customers.</p></div>
+<p><strong>Load testing should only be performed on the Live environment</strong>. Dev has much lower default caching settings than other environments to facilitate iterative development. Test has the exact same configuration as Live, but Test can only have one appserver, while Live can have as many as your plan allows. If disruptive behavior occurs outside of the Live environment, the site may be temporarily disabled to prevent disruption to other customers.</p>
+</div>
 
 ## Performance vs. Scalability
 
@@ -51,7 +52,8 @@ The "Age" field should be greater than 0. If the max age is not greater than 0, 
 
 <div class="alert alert-danger" role="alert">
 <h3 class="info">Warning</h3>
-<p>Until Varnish has been correctly configured, don't worry about further testing.</p></div>
+<p>Until Varnish has been correctly configured, don't worry about further testing.</p>
+</div>
 
 ## Timing an Uncached Page Request
 
@@ -154,7 +156,8 @@ The output provides insight into the requests per second, the most critical elem
 
 <div class="alert alert-info" role="alert">
 <h3 class="info">Note</h3>
-<p>Testing with a session cookie to emulate the experience of a logged-in user is extremely important, as the contrast between an anonymous user and a logged-in user may be drastically different.</p></div>
+<p>Testing with a session cookie to emulate the experience of a logged-in user is extremely important, as the contrast between an anonymous user and a logged-in user may be drastically different.</p>
+</div>
 
 ## Performance Goals
 

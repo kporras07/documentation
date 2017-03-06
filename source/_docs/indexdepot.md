@@ -1,8 +1,8 @@
 ---
 title: Using IndexDepot With Pantheon Sites
 description: Learn how to create and configure IndexDepot with Solr for advanced indexing features for your Drupal or WordPress sites.
-tags: [automate]
-categories: [automate]
+tags: [siteintegrations]
+categories: []
 ---
 ## Overview
 
@@ -60,7 +60,8 @@ When you’ve finished, click **Save**.
 
 <div class="alert alert-danger" role="alert">
 <h3 class="info">Warning</h3>
-<p>A schema must be pushed in each environment (Dev/Test/Live).</p></div>
+<p>A schema must be pushed in each environment (Dev/Test/Live).</p>
+</div>
 
 ## Test Your New Solr Connection
 
